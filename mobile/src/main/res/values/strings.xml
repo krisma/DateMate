@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">DateMate</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="upcoming_dates">Your upcoming dates</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="add_new_date">+ Add new date</string>
+
+    <string name="date_name">Name</string>
+    <string name="date_location">Location</string>
+    <string name="set_date">Enter date</string>
+    <string name="set_time">Enter time</string>
+    <string name="date_interests">Date\'s interests</string>
+
+    <string name="confirm_date">Add date</string>
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_add_new_date_info">AddNewDateInfo</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

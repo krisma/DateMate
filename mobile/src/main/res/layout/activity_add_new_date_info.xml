@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.irisjang.datemate.AddNewDateInfo">
+
+    <ImageView
+        android:id="@+id/name_icon"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profile" />
+
+    <EditText
+        style="@style/default_button_style"
+        android:id="@+id/date_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_alignParentRight="true"
+        android:hint="@string/date_name"
+        android:inputType="textEmailAddress" />
+
+    <ImageView
+        android:id="@+id/location_icon"
+        android:layout_width="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/house" />
+
+    <EditText
+        style="@style/default_button_style"
+        android:id="@+id/date_location"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:hint="@string/date_location"
+        android:inputType="textEmailAddress"
+        android:layout_alignBottom="@+id/location_icon" />
+
+    <ImageView
+        android:id="@+id/calendar_icon"
+        android:layout_width="50dp"
+        android:layout_marginTop="190dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/calendar" />
+
+    <Button
+        style="@style/default_button_style"
+        android:id="@+id/set_date"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/set_date"
+        android:inputType="textEmailAddress"
+        android:onClick="showDatePickerDialog"
+        android:layout_marginTop="200dp"
+        android:layout_alignParentEnd="true"
+        android:gravity="left|center_vertical" />
+
+    <ImageView
+        android:id="@+id/clock_icon"
+        android:layout_width="50dp"
+        android:layout_marginTop="290dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/clock" />
+
+    <Button
+        style="@style/default_button_style"
+        android:id="@+id/set_time"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/set_time"
+        android:inputType="textEmailAddress"
+        android:onClick="showTimePickerDialog"
+        android:layout_marginTop="300dp"
+        android:layout_alignParentEnd="true"
+        android:gravity="left|center_vertical"
+        android:textStyle="normal"/>
+
+    <ImageView
+        android:id="@+id/interests_icon"
+        android:layout_width="50dp"
+        android:layout_marginTop="390dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/heart" />
+
+    <EditText
+        style="@style/default_button_style"
+        android:id="@+id/date_interests"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:hint="@string/date_interests"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="400dp"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/confirm_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:text="@string/confirm_date"
+        android:layout_marginTop="510dp"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:textColor="#FFF"
+        android:background="@drawable/button_filled_in"
+        />
+</RelativeLayout>
+
+</ScrollView>
